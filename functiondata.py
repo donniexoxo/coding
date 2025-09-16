@@ -12,7 +12,21 @@ name= "Donnell mcgriff"
 birthday="August 6, 2008"
 
 
-def name_bday(name,bday):
-       print('my name is + ' name + "my bday is " + bday)
+def birthdate(name, birthdate):
+       print('my name is '+name + ' and my birthdate is ' + birthdate)
 
-name_bday('')
+birthdate('Donnell','august 6th ')
+
+# create a function that will convert dollars into pennies
+# your function should take the dollar amount is as a paranter
+# and calculate how many pennie are in their dollar amount
+# your function should print out the following message:
+
+# my {13} dollar(s) is equal to {1300} pennies
+
+
+def dollarConverter(dollar):
+     pennies = dollar * 100
+     print('my'+ str(dollar) + 'dollar(s) is equalt to' + str(pennies) + ' pennies.')
+
+dollarconverter(5)
