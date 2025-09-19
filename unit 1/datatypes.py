@@ -34,3 +34,4 @@ false
 #then we assighn it a value (data)
 
 schoolname='boys latin'
+           
