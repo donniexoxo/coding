@@ -4,12 +4,19 @@
 #Condtional syntax= if/ else
 #If = the condition we are looking to satisfy
 
+
 # Else= the default/exit. the thing that happens
-#when our condition is NOT satisfied
+
+#elif keyword- same thing as the if keyword
+
+#else keyword- our default outcome. the thing that
+#happens when our condition is NOT satisfied
 
 
-weather=input('whats the weather like today ?')
 
+
+def weather():
+    weather=input('whats the weather like today ?')
 if weather== 'sunny':
     print('Its gonna be nice out. wear shades.')
 elif weather=="rainy":
@@ -62,3 +69,19 @@ elif age == 14 and age > 14:
 def permitcheck(age):
     if age >= 16:
         print("congrats, you can begin learning to drive.")
+    else:
+        print("sorry, not old enough")
+        permitcheck(age)
+
+
+def numbercheck(number):
+    if number >= 0:
+        print("this is a postive")
+    Else
+    print('this is a negative')
+
+def gradecheck(grade):
+    if grade >-90:
+        print('you have a A')
+    elif grade >
+   
