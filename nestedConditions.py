@@ -51,3 +51,31 @@ def atm():
             if amount > balence:
                 print("sorry, you dont have that much in your account")
             else:
+                newBalence = balence - amountprint("your newbalence is. " + str(newBalence))
+                if selection ==2:
+                    amount = int(input("how much would you like to deposit"))
+                newBalence= balence + amount
+                print("you are adding" + str(amount))
+                print("your new balence is" + str(newBalence))
+                if selection ==3:
+                    print("your balence is" + str(balence))
+
+
+
+
+
+
+
+
+
+
+
+
+
+# pyton lists = a way to organize data, regardless of data type
+
+
+# list syntax = create a vaeiblr and then asssign it to square brackets
+# write the data you want in your list in the square brackets
+
+
