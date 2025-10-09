@@ -30,3 +30,26 @@ additemforcollege(trunkparty)
 
 # create a function that will remove an item from the trunk party list
 # use w3schools to find a list methond 
+
+
+
+
+harddrive_2gb = [1,'word', 'video','mp3','game','video']
+
+
+#print(shoppingcart)
+
+def additemtocart():
+    bestbuycart
+
+
+
+
+numbersLst = [100, 23, 450, 63, 1, 6, 19, 1000]
+
+def adAndsort(newnumber):
+    numberlist.append(newnumber) # new number has been added
+    numberlist.sort() # sort add sort, and we are done
+    print(numberslist) #just telling the computer to print
+
+addandsort(60)
