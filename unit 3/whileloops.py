@@ -26,3 +26,27 @@ while savedpassword != userpassword:
     print('attempts:' + str(attempt))
     userpassword = input ("please type in your password agian: ")
     if attempt
+
+
+
+
+
+
+
+
+number = 0
+while number < 10:
+    number += 1
+    print(number)
+else:
+    print('done counting ')
+
+
+# create a while loop that counts down from 30 by 1
+
+number = 30
+while number > 0:
+    number = 1
+    print(number)
+else:
+    print('done counting')
