@@ -25,7 +25,7 @@ while savedpassword != userpassword:
     attempt += 1
     print('attempts:' + str(attempt))
     userpassword = input ("please type in your password agian: ")
-    if attempt
+   
 
 
 
@@ -50,3 +50,15 @@ while number > 0:
     print(number)
 else:
     print('done counting')
+
+
+
+
+number = 0
+while number < 1000000000:
+    number += 1
+    print(number)
+    if quit == quit:
+
+
+``
