@@ -24,3 +24,30 @@ numberloop()
 
 
 
+
+
+
+
+# Acrivity 1
+# create a function that will printout a list of numbers based on
+# what the user inputs. your function should take in a user input
+# add the input to a list and then print it out in the terminal
+#
+#
+
+
+def numberListloop():
+    numberlist = []
+    usernumber = input("type in a number: ")
+    while usernumber != 'quit' :
+        newNumber = int(usernumber)
+        numberlist.append(newNumber)
+        print(numberlist)
+    else:
+        print("loop has stopped. ")
+
+
+
+    def addnumber():
+        numberlist = []
+        

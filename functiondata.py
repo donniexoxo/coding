@@ -8,14 +8,14 @@ def bnbRefund(accountNumber, refundamount): # paramters are placeholders
 # step 2. function call (invocation)
 bnbrefund(19292929, 3000) # arguements are real data 
 
-name= "Donnell mcgriff"
-birthday="August 6, 2008"
+name="kadaeir debleye"
+birthday= "october 30 2007 "
 
 
 def birthdate(name, birthdate):
        print('my name is '+name + ' and my birthdate is ' + birthdate)
 
-birthdate('Donnell','august 6th ')
+birthdate('Kadaeir ','october 30  ')
 
 # create a function that will convert dollars into pennies
 # your function should take the dollar amount is as a paranter
