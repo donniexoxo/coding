@@ -14,7 +14,7 @@ def homework():
 # Question 2
 # Create a function that will take in a string as an argument and output 
 # that string in reverse order.
-fruits =[
+fruits =
 # hint: look into string reverse in w3schools
 
 # Question 3
@@ -27,3 +27,45 @@ fruits =[
 # it should tell them it is too low and to guess again. Once the user gets 
 # it correct the program should congratulate them, stop, and tell them how 
 # many attempts they made.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
