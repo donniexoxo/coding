@@ -43,6 +43,14 @@ def sighnup():
     #19> is adult
     currnyr = 2025
     userage = currntyr- dob
-    if userage > 
+   
     signup()
    
+
+
+
+
+
+
+
+
