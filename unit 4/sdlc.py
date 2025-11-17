@@ -28,9 +28,16 @@ def sighnup():
    #problem solving
 
 
-'1. be able to divide numbers"
-
-
+'1.be able to divide numbers'
+'2.should be able to do substraction'
+'3  '
 
 def add():
-    print('')
+    num1 = int('please typr in number')
+    num2 = int(input('please typr in another number'))
+    sum = num1 + num2
+    print('sum =' + str(sum))
+    bonusnum = int(input("would you like to add another number the sum"))
+    if bonusnum == 'y':
+        numx = int(input("please type in number"))
+        print(sum += numx)
