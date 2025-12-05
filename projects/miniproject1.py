@@ -41,3 +41,38 @@ def quizanswers():
         print(x)
 
 
+
+
+
+
+
+
+def pythonQuiz():
+    grade = 0
+    print('1. which of the following good foods?')
+    print("A. chicken")
+    print("B. burger")
+    print("C. steak")
+    print("D. beef")
+    useranswer = input(' ')
+    correctanswer = 'a'
+    if testAnswer == correctanswer:
+        grade += 1
+        print("correct")
+    else:
+        print("incorrect")
+    print("2. what animal is at the top of the food chain")
+    print("A. dogs")
+    print("B. cats")
+    print("C. lion")
+    print("D.  fish")
+    userinput =(' ')
+    correctanswer ='B'
+    if testAnswer == correctanswer:
+        grade += 1
+        print("correct")
+    else:
+        ptint("incorrect")
+     
+    
+
