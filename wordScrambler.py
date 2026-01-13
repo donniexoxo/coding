@@ -1,41 +1,62 @@
-# function needs to have a list of 4 words
-#function needs to take 1 word from list randomly
-# selected words needs to be randomized/ shuffled
-# allow user to guess the original / correct word
-# if it is correct, they else they lose
+import random
 
-def scramlewordgame():
-    wordpool = ["pennsylvania", "north carolina", "congregate", "function"]
-    print("welcome to word scramble!")
+# 1. Create a function that contains a list with 4 words/ strings. - DONE
+# 2. Randomly select a word from the list. - DONE
+# 3. Shuffle the select word and show it to the user. - DONE
+# 4. Allow user to input a guess. if it is correct, they win, 
+# else they lose. - DONE
 
-    randomwordselect = random.randint(0,3)
-    correctword =
-    if randomworlselect == 0:
-        print(wordpool[0])
+# Create additional code that will give the user 3 attempts to get the correct answer
+# this new code should also count the number of attempts and tell the user how many they have
 
-    elif randomworlselect == 1:
-        print(wordpool[1])
 
-    elif randomworlselect == 2:
-        print(wordpool[2])
+def wordScrambler():
+    wordPool = ["latitude",'arithmetic','sophisticated','pyscosis']
+    correctWord =""
 
-    elif randomworlselect == 3:
-        print(wordpool[3])
+    print("Welcome to scrambled! ")
+    randomSelect = random.randint(0,3)
+
+    if randomSelect == 0:
+        correctWord = wordPool[0]
+    elif randomSelect == 1:
+        correctWord = wordPool[1]
+    elif randomSelect == 2:
+        correctWord = wordPool[2]
+    elif randomSelect == 3:
+        correctWord = wordPool[3]
     
-    convertedselection = list(correctword)
-    random.shuffle(convertedselection)
-    scrambled = "".join(convertedselection)
-    print("guess the correct word" + scrambled)
-    userguess = input()
-    if userguess == correctword:
-        print("this is corrrect")
-    else:
-        ptint("this is wrong")
+    convertedString = list(correctWord)
+    
+    random.shuffle(convertedString)
+    scrambled = "".join(convertedString)
+    
 
-    print(convertedselection)
+# While Loop Solution
+    attempts = 0
+    while attempts != 3:
+        print("Please guess the correct word: " + scrambled)
+        userGuess = input()
+
+        if userGuess == correctWord:
+            print("You Win!")
+            break
+        else:
+            print("Sorry, you lose.")
+            attempts += 1 
+
+# For Loop Solution
+    for  attempts in range(1,4):
+        print("Please guess the correct word: " + scrambled)
+        userGuess = input()
+        if userGuess == correctWord:
+            print("You Win!")
+            print('this is your ' + str(attempts))
+            break
+        else:
+            print("Sorry, you lose.")
+            print('this is your ' + str(attempts))
 
 
-
-
-
-scramblewordgame()
+wordScrambler()   
+  
